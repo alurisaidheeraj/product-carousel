@@ -62,6 +62,20 @@ html {
     grid-area: header;
     padding: 1em;
   }
+  .slider-left-icon{
+    font-size: 18px;
+    color: #4186ad;
+    padding: 14px 8px;
+    margin-left: 12px;
+    border: solid 1px #c8c4c0;
+  }
+  .slider-right-icon  {
+    font-size: 18px;
+    color: #4186ad;
+    padding: 14px 8px;
+    margin-right: 5px;
+    border: solid 1px #c8c4c0;
+  }
   
   .title {
     color: $gray;
@@ -104,6 +118,7 @@ html {
       -ms-overflow-style: none;  /* IE and Edge */
      scrollbar-width: none;  /* Firefox */
   }
+
   .items::-webkit-scrollbar{
     display: none;
     background: transparent;

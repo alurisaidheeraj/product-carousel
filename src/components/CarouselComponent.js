@@ -258,7 +258,7 @@ class CarouselCustomTextInput extends React.Component {
     return (
       <div className="container">
         <header onClick={this.scrollLeft} className="slider-left">
-          Left
+        <button className="slider-left-icon">{"<"}</button>
         </header>
         <div className="items" ref={this.slider}>
           {item.map((r, i) => (
@@ -287,7 +287,7 @@ class CarouselCustomTextInput extends React.Component {
           })}
         </ul>
         <footer className="slider-right" onClick={this.scrollRight}>
-          Right
+        <button className="slider-right-icon">{">"}</button>
         </footer>
       </div>
     );
