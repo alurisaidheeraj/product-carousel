@@ -2,34 +2,44 @@ import React from "react";
 import "./CarouselComponent.scss";
 const item = [
   {
-    desc: "Test1"
+    
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test2"
+    
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Reducing-Tees-24632000.jpg"
   },
   {
-    desc: "Test3"
+   
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Reducing-Tees-24632000.jpg"
   },
   {
-    desc: "Test4"
+   
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test5"
+    
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test6"
+    
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test7"
+   
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test8"
+   
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test9"
+    
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   },
   {
-    desc: "Test10"
+    
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
   }
 ];
 class CarouselCustomTextInput extends React.Component {
@@ -264,6 +274,7 @@ class CarouselCustomTextInput extends React.Component {
           {item.map((r, i) => (
             <div key={r.desc} className="item item1">
               {r.desc}
+              <img src={r.image} className="image-item" alt="copperfield"></img>
             </div>
           ))}
         </div>

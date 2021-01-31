@@ -123,6 +123,9 @@ html {
     display: none;
     background: transparent;
   }
+  .image-item{
+    width: calc(100% - 30px);
+  }
 
   
   // .items.active {
