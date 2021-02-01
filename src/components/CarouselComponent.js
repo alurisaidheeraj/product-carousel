@@ -2,8 +2,8 @@ import React from "react";
 import "./CarouselComponent.scss";
 const item = [
   {
-    
     image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    
   },
   {
     
@@ -263,7 +263,7 @@ class CarouselCustomTextInput extends React.Component {
   };
 
   render() {
-    console.log("slicks", this.state.slicks);
+    // console.log("slicks", this.state.slicks); console logs the slicks to see which state they are in
 
     return (
       <div className="container">
