@@ -7,39 +7,39 @@ const item = [
   },
   {
     
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Reducing-Tees-24632000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-90-Elbows-150000.jpg"
   },
   {
    
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Reducing-Tees-24632000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-90-Street-Elbows-147000.jpg"
   },
   {
    
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-45-Street-Elbows-152000.jpg"
   },
   {
     
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-x-Male-Adapters-138000.jpg"
   },
   {
     
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Couplings-144000.jpg"
   },
   {
    
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Reducer-Couplings-135000.jpg"
   },
   {
    
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Unions-131000.jpg"
   },
   {
     
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Caps-145000.jpg"
   },
   {
     
-    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Tees-134000.jpg"
+    image: "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/Copper-Fitting-Brushes-155000.jpg"
   }
 ];
 class CarouselCustomTextInput extends React.Component {

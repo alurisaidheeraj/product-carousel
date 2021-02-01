@@ -63,14 +63,14 @@ html {
     padding: 1em;
   }
   .slider-left-icon{
-    font-size: 18px;
+    font-size: 32px;
     color: #4186ad;
     padding: 14px 8px;
     margin-left: 12px;
     border: solid 1px #c8c4c0;
   }
   .slider-right-icon  {
-    font-size: 18px;
+    font-size: 32px;
     color: #4186ad;
     padding: 14px 8px;
     margin-right: 5px;
@@ -123,9 +123,9 @@ html {
     display: none;
     background: transparent;
   }
-  .image-item{
-    width: calc(100% - 30px);
-  }
+  // .image-item{
+  //   width: 50%;
+  // }
 
   
   // .items.active {
@@ -137,7 +137,7 @@ html {
 
   .item {
     display: inline-block;
-    background: skyblue;
+    background: #fff;
     min-height: 250px;
     min-width: 400px;
     margin: 20px;
